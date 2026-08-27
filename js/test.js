@@ -65,7 +65,7 @@
     { q: "나에게 가장 효과적인 복습은…", a: [
       { g: "nt", t: "백지에 전체 구조를 복원해 보기" },
       { g: "nf", t: "배운 내용을 남에게 소리 내어 가르치기" },
-      { g: "sj", t: "정해진 주기(1일·7일·30일)마다 회독하기" },
+      { g: "sj", t: "정해진 주기(1·7·30일)마다 회독하기" },
       { g: "sp", t: "실전 모의고사로 몰아서 점검하기" }
     ]},
     { q: "내가 선호하는 공부 환경은…", a: [
@@ -226,9 +226,8 @@
       '<button type="button" class="btn btn-ghost" id="retry-btn">' +
       (shared ? "나도 진단해보기" : "다시 진단하기") + "</button>" +
       "</div>" +
-      '<div id="share-box" hidden style="margin-top:16px">' +
-      '<input id="share-url" readonly aria-label="공유 문구" ' +
-      'style="width:100%;max-width:520px;padding:10px 12px;border:1.5px solid var(--border);border-radius:10px;font:inherit" />' +
+      '<div id="share-box" class="share-box" hidden>' +
+      '<input id="share-url" readonly aria-label="공유 문구" />' +
       "</div>" +
       "</div>";
 

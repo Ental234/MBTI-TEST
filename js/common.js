@@ -3,9 +3,9 @@
   var PAGES = [
     { href: "index.html", label: "홈" },
     { href: "nt.html", label: "NT 분석형" },
-    { href: "nf.html", label: "NF 이상형" },
-    { href: "sj.html", label: "SJ 관리형" },
-    { href: "sp.html", label: "SP 탐험형" },
+    { href: "nf.html", label: "NF 의미형" },
+    { href: "sj.html", label: "SJ 성실형" },
+    { href: "sp.html", label: "SP 실전형" },
     { href: "test.html", label: "자가진단" }
   ];
 
@@ -38,7 +38,7 @@
     return (
       '<div class="container">' +
       '<div class="fnav">' + links + "</div>" +
-      "<p>MBTI 공부법 연구소 · 재미로 보는 학습 성향 콘텐츠입니다. 검사 결과는 참고용이에요.</p>" +
+      "<p>MBTI 공부법 연구소 · 재미로 보는 학습 성향 콘텐츠입니다. 진단 결과는 참고용이에요.</p>" +
       "</div>"
     );
   }
